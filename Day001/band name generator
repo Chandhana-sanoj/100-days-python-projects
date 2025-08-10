@@ -1,0 +1,9 @@
+# Day 01 – Band Name Generator
+
+print("Welcome to the band name generator!")
+city = input("What's the name of the city you grew up in?\n")
+pet = input("What's the name of your pet?\n")
+genre= input("What's your favorite music genre?\n")
+mood= input("What's your current mood?\n")
+band_name = city + " " + pet + " " + genre + " " + mood
+print("Your band name could be: " + band_name)
